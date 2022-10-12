@@ -32,9 +32,7 @@ componentDidMount(){
 
 	onSearchChange = (event) =>{
 		this.setState({searchfield:event.target.value})
-		
-	
-	}	
+		}	
 	
 	render(){
 		const {robots , searchfield}= this.state;
@@ -43,7 +41,7 @@ componentDidMount(){
 		})
 		return(
 		<div className='tc'>
-		<h1 className='f1'>DaKKU DADDY</h1>
+		<h1 className='f1'>ROBOTFRIENDS</h1>
 		<SearchBox searchChange={this.onSearchChange}/>
 		<Scroll>
 		<ErrorBoundry>
